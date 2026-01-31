@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build_prod:
+  stage: build
+  tags:
+    - prod-build
+  script:
+    - go build -o build
+  only:
+    - master
