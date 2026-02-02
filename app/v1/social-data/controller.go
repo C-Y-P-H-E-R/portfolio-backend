@@ -25,6 +25,11 @@ func GET(c *gin.Context) {
 				"username": "sololevelerIndia",
 				"registered_email": "quasarkid123@gmail.com",
 			},
+			"mail": map[string]string{
+				"url": "mailto:sde.kushagra@gmail.com",
+				"username": "sde.kushagra",
+				"registered_email": "sde.kushagra@gmail.com",
+			},
 		},
 	})
 }
